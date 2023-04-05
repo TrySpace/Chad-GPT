@@ -1,5 +1,7 @@
 # ChadGPT
 
+Forked from [freedom-gpt-electron-app](https://github.com/ohmplatform/freedom-gpt-electron-app), currently just a simple renaming.
+
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ![GitHub release](https://img.shields.io/github/release/ohmplatform/freedom-gpt-electron-app.svg)
