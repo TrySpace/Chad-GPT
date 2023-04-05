@@ -2,14 +2,6 @@
 
 Forked from [freedom-gpt-electron-app](https://github.com/ohmplatform/freedom-gpt-electron-app), currently just a simple renaming.
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-
-![GitHub release](https://img.shields.io/github/release/ohmplatform/freedom-gpt-electron-app.svg)
-
-![GitHub stars](https://img.shields.io/github/stars/ohmplatform/freedom-gpt-electron-app.svg)
-
-![GitHub All Releases](https://img.shields.io/github/downloads/ohmplatform/freedom-gpt-electron-app/total.svg)
-
 # Table of Contents
 
 - [Introduction](#introduction)
@@ -60,3 +52,13 @@ To run the application, run the following command in your terminal:
 To build the application, run the following command in your terminal:
 
 `yarn package`
+
+
+
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+![GitHub release](https://img.shields.io/github/release/ohmplatform/freedom-gpt-electron-app.svg)
+
+![GitHub stars](https://img.shields.io/github/stars/ohmplatform/freedom-gpt-electron-app.svg)
+
+![GitHub All Releases](https://img.shields.io/github/downloads/ohmplatform/freedom-gpt-electron-app/total.svg)
