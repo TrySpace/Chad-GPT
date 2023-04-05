@@ -50,8 +50,8 @@ const config: ForgeConfig = {
     new MakerDMG({}, ["darwin"]),
     new MakerWix(
       {
-        name: "FreedomGPT",
-        description: "FreedomGPT",
+        name: "ChadGPT",
+        description: "ChadGPT",
         manufacturer: process.env.MANUFACTURER_NAME as string,
         ui: {
           chooseDirectory: true,
