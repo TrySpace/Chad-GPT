@@ -36,8 +36,8 @@ const CHAT_APP_LOCATION = deviceisWindows
     ? app.getAppPath() + "/src/models/windows/chat"
     : process.resourcesPath + "/models/windows/chat"
   : isDev
-  ? app.getAppPath() + "/src/models/mac/chat"
-  : process.resourcesPath + "/models/mac/chat";
+    ? app.getAppPath() + "/src/models/mac/chat"
+    : process.resourcesPath + "/models/mac/chat";
 
 const FILEPATH = MODEL_LOCATION + "/ggml-alpaca-7b-q4.bin";
 
@@ -198,7 +198,7 @@ const createLoaderWindow = (): BrowserWindow => {
   </head>
   <body>
     <div>
-      <h1 class="title">FreedomGPT</h1>
+      <h1 class="title">ChadGPT</h1>
       <div class="loader">
         <div class="lds-ring">
           <div></div>
@@ -215,8 +215,8 @@ const createLoaderWindow = (): BrowserWindow => {
 
         <p>
           Downloaded: <span id="downloadedFile">0</span> MB / ${(
-            FILESIZE / 1000000
-          ).toFixed(2)}MB
+      FILESIZE / 1000000
+    ).toFixed(2)}MB
         </p>
         <div></div>
       </div>
@@ -365,7 +365,7 @@ const checkIfFileExists = async () => {
 };
 
 io.on("connection", (socket) => {
-  /* 
+  /*
     The alpaca model doesnot work with context so we need to spawn a new process for each chat
     This is not ideal but it works for now. If you have any suggestions on how to improve this
     please let me know!
